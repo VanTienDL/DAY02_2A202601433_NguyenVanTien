@@ -61,7 +61,12 @@
 **Nhóm chọn:** *(đề tài về hỗ trợ phụ huynh quản lý lịch tiêm chủng vaccine cho trẻ sơ sinh)*
 
 **Vì sao chọn:**
-- *(cần bổ sung lý do cụ thể — ví dụ: mức độ cấp thiết cao vì liên quan đến sức khỏe trẻ nhỏ, dấu hiệu thật rõ ràng và đo lường được, có thể giải quyết hiệu quả bằng AI thay vì chỉ Non-AI)*
+- Nhóm chọn bài toán hỗ trợ phụ huynh quản lý lịch tiêm chủng vaccine cho trẻ sơ sinh vì đây là vấn đề có mức độ cấp thiết cao, liên quan trực tiếp đến sức khỏe trẻ nhỏ, không chỉ là bài toán tiện lợi cá nhân.
+- Actor rõ ràng: phụ huynh bận rộn có con nhỏ trong độ tuổi tiêm chủng. Bối cảnh đau cũng cụ thể: phải nhớ lịch tiêm, đặt/đổi lịch, theo dõi nhiều kênh thông báo và xử lý thông tin sau tiêm.
+- Workflow hiện tại có nhiều điểm nghẽn có thể quan sát được: lịch tiêm nằm rải rác ở sổ tiêm, tin nhắn, app riêng lẻ; phụ huynh dễ quên lịch hoặc trùng lịch cá nhân; sau tiêm dễ phải tự tra cứu thông tin từ nguồn không chính thống.
+- Impact có thể đo lường bằng các chỉ số rõ: số ca tiêm bị nhỡ, tỷ lệ lịch tiêm đặt và hoàn thành, số câu hỏi lặp lại về đặt lịch gửi đến cơ sở tiêm, và số trường hợp xử lý sai triệu chứng sau tiêm do thiếu thông tin chính thống.
+- Bài toán phù hợp để so sánh No AI / Rule / Workflow / Agent: phần nhắc lịch có thể dùng Rule/Workflow, còn phần hỏi-đáp sau tiêm cần khả năng hiểu ngôn ngữ tự nhiên, tra cứu nguồn chính thống và phản hồi theo ngữ cảnh nên phù hợp với Agent có kiểm soát.
+- Phạm vi MVP có thể giới hạn rõ: bắt đầu với một phác đồ tiêm chuẩn, một nhóm phụ huynh nhỏ và 1-2 cơ sở tiêm thí điểm; agent không chẩn đoán, không kê đơn, không quyết định liều vaccine và không thay thế bác sĩ.
 
 **Vì sao không chọn các bài khác:**
 
